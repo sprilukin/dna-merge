@@ -19,7 +19,7 @@ i18n
     },
 
     backend: {
-      loadPath: '/dna-merge/locales/{{lng}}/{{ns}}.json',
+      loadPath: '/locales/{{lng}}/{{ns}}.json',
     },
 
     detection: {

@@ -28,7 +28,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <GlobalStyles />
         <LanguageSwitcher />
-        <BrowserRouter basename="/dna-merge">
+        <BrowserRouter>
           <RouteTracker />
           <Routes>
             <Route path="/" element={<Home />} />
